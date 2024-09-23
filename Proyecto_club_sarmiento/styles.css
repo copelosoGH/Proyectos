@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ededf7 ;
+    color: rgb(33, 54, 250);
+    font-family: Arial, sans-serif;
+  }
+  a {
+    background-color: #0ca8f6;
+    color: black;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border: 5px solid rgba(22, 22, 22, 0.468);
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  @media (max-width: 992px) {
+    .botones {
+      display: flex;
+      flex-direction: column;
+    }
+    a{
+      margin-top: 10px;
+    }
+  }
+  
+  .escudo-img {
+    width: 200px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+  }
+  
+  .botones {
+    margin-top: 20px;
+  }
+
+  /* Estilos para los elementos creados dinámicamente */
+.item {
+  background-color: rgb(121, 141, 255);
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid rgba(22, 22, 22, 0.468);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333; /* Color de texto para los elementos dinámicos */
+}
+  
+.elemento{
+  margin: 15px auto 0px auto;
+  color:#333;
+  text-align: center;
+}
+.boton-elemento{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  background-color: #0ca8f6;
+  color: #ededf7;
+  border-radius: 15px;
+  border: #333 solid 3px;
+  padding: 8px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.boton-pedido{
+  margin-top: 10px;
+}
